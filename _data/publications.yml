@@ -1,0 +1,74 @@
+preprints:
+  - title: Restoring similarity in randomized Krylov methods with applications to eigenvalue problems and matrix functions
+    authors: Laura Grigori, Daniel Kressner, Nian Shao, <strong>Igor Simunec</strong>
+    conference_short: arXiv
+    conference: arXiv:2601.10248, 2026
+    pdf: https://arxiv.org/pdf/2601.10248.pdf
+
+  - title: Randomized orthogonalization and Krylov subspace methods: principles and algorithms
+    authors: Jean-Guillaume de Damas, Laura Grigori, <strong>Igor Simunec</strong>, Edouard Timsit
+    conference_short: arXiv
+    conference: arXiv:2512.15455, 2025
+    pdf: https://arxiv.org/pdf/2512.15455.pdf
+
+  - title: Randomized biorthogonalization through a two-sided Gram--Schmidt process
+    authors: Laura Grigori, Lorenzo Piccinini, <strong>Igor Simunec</strong>
+    conference_short: arXiv
+    conference: arXiv:2509.04386, 2025
+    pdf: https://arxiv.org/pdf/2509.04386.pdf
+
+  - title: Estimation of spectral gaps for sparse symmetric matrices
+    authors: Michele Benzi, Michele Rinelli, <strong>Igor Simunec</strong>
+    conference_short: arXiv
+    conference: arXiv:2410.15349, 2024 (to appear in Numerische Mathematik)
+    pdf: https://arxiv.org/pdf/2410.15349.pdf
+
+journal_articles:
+  - title: A low-memory Lanczos method with rational Krylov compression for matrix functions
+    authors: Angelo A. Casulli, <strong>Igor Simunec</strong>
+    conference_short: SIAM J. Sci. Comput.
+    conference: SIAM Journal on Scientific Computing 47(3), 2025
+    pdf: https://doi.org/10.1137/24M1644699
+
+  - title: Error bounds for the approximation of matrix functions with rational Krylov methods
+    authors: <strong>Igor Simunec</strong>
+    conference_short: Numer. Linear Algebra Appl.
+    conference: Numerical Linear Algebra with Applications 31(5), 2024
+    pdf: https://doi.org/10.1002/nla.2571
+
+  - title: A sketch-and-select Arnoldi process
+    authors: Stefan Güttel, <strong>Igor Simunec</strong>
+    conference_short: SIAM J. Sci. Comput.
+    conference: SIAM Journal on Scientific Computing 46(4), 2024
+    pdf: https://doi.org/10.1137/23M1588007
+
+  - title: Computation of the von Neumann entropy of large matrices via trace estimators and rational Krylov methods
+    authors: Michele Benzi, Michele Rinelli, <strong>Igor Simunec</strong>
+    conference_short: Numer. Math.
+    conference: Numerische Mathematik 155, 2023
+    pdf: https://doi.org/10.1007/s00211-023-01368-6
+
+  - title: Computation of generalized matrix functions with rational Krylov methods
+    authors: Angelo A. Casulli, <strong>Igor Simunec</strong>
+    conference_short: Math. Comp.
+    conference: Mathematics of Computation 92, 2023
+    pdf: https://doi.org/10.1090/mcom/3788
+
+  - title: Rational Krylov methods for fractional diffusion problems on graphs
+    authors: Michele Benzi, <strong>Igor Simunec</strong>
+    conference_short: BIT Numer. Math.
+    conference: BIT Numerical Mathematics 62, 2022
+    pdf: https://doi.org/10.1007/s10543-021-00881-0
+
+  - title: Non-local network dynamics via fractional graph Laplacians
+    authors: Michele Benzi, Daniele Bertaccini, Fabio Durastante, <strong>Igor Simunec</strong>
+    conference_short: J. Complex Netw.
+    conference: Journal of Complex Networks 8(3), 2020
+    pdf: https://doi.org/10.1093/comnet/cnaa017
+
+phd_thesis:
+  - title: Advances in polynomial and rational Krylov methods for matrix functions with applications
+    authors: <strong>Igor Simunec</strong>
+    conference_short: PhD Thesis
+    conference: PhD Thesis, Scuola Normale Superiore, 2024
+    pdf: https://ricerca.sns.it/handle/11384/157683
