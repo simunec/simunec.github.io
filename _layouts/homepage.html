@@ -14,8 +14,8 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/svg+xml" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/svg+xml" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
@@ -61,19 +61,19 @@
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" target="_blank">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" target="_blank">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" target="_blank">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
@@ -83,6 +83,13 @@
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
+
+		{% if site.orcid %}
+		<a style="margin: 0 5px 0 0" href="{{ site.orcid }}" target="_blank">
+		  <i class="ai ai-orcid"></i>
+		</a>
+		{% endif %}
+		
 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
